@@ -17,7 +17,7 @@ const props = defineProps<{
 <style scoped lang="scss">
 .bridge-container {
   position: relative;
-  width:fit-content;
+  width: fit-content;
   .bridge-content {
     position: absolute;
     width: 18px;
