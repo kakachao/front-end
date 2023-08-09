@@ -14,7 +14,7 @@ const props = defineProps<{
   count: number
 }>()
 </script>
-<style scoped lang="scss">
+<style scoped lang="scss">‘
 .bridge-container {
   position: relative;
   width: fit-content;

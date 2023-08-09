@@ -23,6 +23,7 @@ import CalendarPicker from './calendar-picker'
 import Loading from './loading'
 import Message from './message'
 import Confirm from './confirm'
+import NestMenu from './nest-menu'
 // 所有组件列表
 const components: {
   [propName: string]: Component
@@ -49,7 +50,8 @@ const components: {
   CTabPane,
   CUpload,
   ImageViewer,
-  CalendarPicker
+  CalendarPicker,
+  NestMenu
 }
 // 定义 install 方法
 const install = (app: App) => {
@@ -57,9 +59,6 @@ const install = (app: App) => {
   for (const key in components) {
     app.component(key, components[key])
   }
-}
-for (const key in components) {
-  console.log(key, 'key')
 }
 export {
   // SelectDropTable1,
@@ -85,6 +84,7 @@ export {
   CUpload,
   ImageViewer,
   CalendarPicker,
+  NestMenu,
   Loading,
   Message,
   Confirm

@@ -18,7 +18,7 @@ import CTable from "./lib/packages/table/CTable.vue"
 import CTabs from "./lib/packages/tabs/CTabs.vue"
 import CTabPane from "./lib/packages/tabs/CTabPane.vue"
 import CUpload from "./lib/packages/upload/CUpload.vue"
-
+import NestMenum from "./lib/packages/nest-menu/NestMenu.vue"
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     CButton: typeof CButton;
@@ -41,6 +41,7 @@ declare module '@vue/runtime-core' {
     CTabs: typeof CTabs;
     CTabPane: typeof CTabPane;
     CUpload: typeof CUpload;
+    NestMenum: typeof NestMenum;
   }
 }
 export { }
